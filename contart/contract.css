@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.menu_area{
+	margin-top: 10px;
+	height: 44px;
+	background-color: black;
+	width: 1300px;
+	border-radius: 10px;
+}
+.sub_menu{
+	float: right;
+	margin-right: 200px;
+}
+.sub_menu ul{
+	list-style: none;
+}
+.sub_menu ul li{
+	float: left;
+	width: 100px;
+	height: 40px;
+
+	text-align: center;
+	line-height: 40px;
+	transition: .1s;
+	position: relative;
+	color: #fff;
+	  
+}
+.sub_menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	transition: .3s;
+	border-radius: 10px;
+	border:2px solid #ccc;
+	
+}
+.sub_menu ul li:hover{
+	border-radius: 2px solid blue;	
+}
+.sub_menu ul li a:hover{
+	background-color: #2FCF3D ;
+}
+.sub_menu ul li ul{
+	display: none;
+}
+.sub_menu ul li ul li{
+	border-radius: 10px;
+	border:2px solid #ccc;
+}
+.sub_menu ul li:hover ul{
+	display: block;
+}
+.sub_menu ul li ul li:hover{
+	background-color: #2FCF3D  ;
+	border-radius: 2px solid blue;
+}
+.sub_menu ul ul ul{
+	margin-left: 100px;
+	top: 0px;
+	position: absolute;
+
+}
+.sub_menu ul ul li{
+	background-color: rgba(0,0,0,.4);
+}
+.sub_menu ul ul ul li{
+	
+	display: none;
+	background-color: rgba(0,0,0,.4);
+}
+.sub_menu ul ul :hover ul li{
+	display: block;
+}
+.sub_menu ul li i{
+	font-size: 10px;
+}
+.navbar{
+	margin-right: 300px;
+	width: 200px;
+}
+.cover01{
+	height: 300px;
+	width: 500px;
+	background-color: #000000;
+	margin: 0 auto;
+	margin-top:20px;
+	border-radius: 20px;
+
+}
+
+.img1{
+	text-align: center;
+	margin-top:60px;
+}
+.imgS{
+	height: 200px;
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-part .copyright {
+  
+    padding: 27px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer-part .copyright p {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer-part .copyright p a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-part .copyright p a:hover {
+    color: #000;
+}
+td{
+	color: #fff;
+}
+.Ch01{
+	color: #fff;
+}
+.form01a input[type=submit]{
+padding: 7px 40px;
+background :skyblue;
+border :none;
+border-radius: 3px;
+}
+.form01a input{
+	margin: 10 0px;
+	border-radius: 3px;
+	padding: 7px 40px;
+}
+.form01a .Ch01{
+	margin-left:20px;
+	margin-top: 20px;
+}
